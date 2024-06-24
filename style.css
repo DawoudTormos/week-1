@@ -1,0 +1,64 @@
+
+*{
+    font-family: Georgia, serif;
+
+}
+
+
+.main {
+    border: 5px solid;
+    margin: auto;
+    width: 800px;
+    padding: 30px;
+
+  }
+
+  .title {
+    width: 600px;
+    margin:  10px auto;
+
+  }
+
+  .image {
+    width: 200px;
+    margin:  10px auto;
+    display: block;
+
+  }
+
+
+
+  .wrapper1 {
+    width: 670px;
+    margin:  10px auto;
+
+  }
+
+  table{
+    border-collapse: collapse;
+    border-radius: 6px;
+  }
+
+  
+/* Applying styles to table headers */
+th {
+  background-color: #f2f2f2; /* Setting background color */
+  border: 1px solid #dddddd; /* Adding border */
+  text-align: left; /* Aligning text to the left */
+  padding: 8px; /* Adding padding */
+}
+
+/* Applying styles to table rows */
+tr {
+  border: 1px solid #dddddd; /* Adding border */
+}
+
+/* Applying styles to table cells */
+td {
+  padding: 8px; /* Adding padding */
+}
+
+/* Applying different background color to even rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
